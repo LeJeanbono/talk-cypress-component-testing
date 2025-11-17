@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap')
+layer(base);
+
+@import 'tailwindcss';
+
+@theme {
+  --color-cy-blue: #4956e3;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@layer base {
+  body {
+    margin: 0;
+  }
+}

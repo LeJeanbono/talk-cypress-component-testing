@@ -1,0 +1,16 @@
+{
+  "lines": [
+    {
+      "text": "Comme vous pouvez le voir"
+    },
+    {
+      "text": "Le mocking des calls API"
+    },
+    {
+      "text": "Marche correctement"
+    },
+    {
+      "text": "Et de la même façon que des tests Cypress classiques"
+    }
+  ]
+}
